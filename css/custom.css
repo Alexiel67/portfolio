@@ -1,0 +1,430 @@
+/*********************** CUSTOM CSS ***********************/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+body,
+html {
+    /*height: 100%;*/
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+	margin-bottom: 0px;
+	padding: 5px 15px 15px 15px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+.divRef {
+	background-color: black;
+	color: white;
+	box-shadow: 2px 2px 12px #c936bf;
+	position: relative;
+	z-index: 8;
+}
+
+.divApropos {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 4rem;
+	margin: 80px 25px 80px 25px;
+	position: relative;
+	z-index: 8;
+}
+
+.uk-button-primary {
+	background-color: #c936bf;
+}
+
+/****************************** Navbar ajouts ******************************/
+.uk-navbar {
+	text-transform:uppercase;
+}
+
+.uk-navbar-nav > li > a:focus {  
+    color: #c936bf;
+}
+
+/****************************** HEADER ******************************/
+.header {
+	background-image: url(../img/orion-nebula-11107.jpg);
+	height: 768px;
+}
+
+.header-inner {
+	max-width: 100%;
+	/* center */
+	margin: 0 auto;
+	/* space out parent */
+	padding: 300px 10px 50px;
+}
+
+.vaisseau {
+position: relative;
+z-index: 12;
+}
+
+#vaisseau {
+	height: 60px;
+	width: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    position: relative;
+    z-index: 12;
+}
+
+.elo {
+	font-family: 'Great Vibes', cursive;
+	text-transform: inherit;
+	font-size: 100px;
+	text-shadow: 0 0 10px #c936bf;
+}
+
+#ContactButton {
+	margin-top: 3rem;
+}
+
+.buttonContact {
+	font-family: 'Iceland', cursive;
+	font-size: 1.5em;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 2px solid #c936bf;
+	border-radius: 5px;
+	color: white;
+	padding: 1rem;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 12px black;
+}
+
+.buttonContact:hover {
+	box-shadow: 0px 0px 12px #c936bf;
+	cursor: pointer;
+
+}
+
+.buttonCv {
+	font-family: 'Iceland', cursive;
+	font-size: 1.5em;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 2px solid #c936bf;
+	border-radius: 5px;
+	color: white;
+	padding: 1rem;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 12px black;
+}
+
+.buttonCv:hover {
+	box-shadow: 0px 0px 12px #c936bf;
+	cursor: pointer;
+
+}
+
+#fix {
+	position: fixed;
+	z-index: 9;
+	height: 760px;
+	width: auto;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+.iconef {
+	cursor: pointer;
+	height: 55px;
+	width: auto;
+	margin-top: 80px;
+}
+
+.iconet {
+	cursor: pointer;
+	height: 45px;
+	width: auto;
+	margin-top: 15px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/****************************** FIN HEADER ******************************/
+
+/****************************** Div Portfolio ******************************/
+.img-test {
+	border-radius: 50%;
+	height: 300px;
+	width: auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#h3Portfolio {
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 1rem;
+	color: white;
+}
+
+#panel {
+	background-color: black;
+	border: 1px solid violet;
+	color: white;
+}
+
+.titreModal {
+	background-color: #222222;
+	box-shadow: 0px 0px 35px #c936bf;
+}
+/****************************** Fin Div Portfolio ******************************/
+
+/*********************** Div parallax ***********************/
+.second-parallax {
+	background-image: url(../img/space.jpg);
+	min-height: 300px;
+	position: relative;
+	z-index: 4;
+}
+
+/****************************** Div photos ******************************/
+.second-parallax2 {
+	background-image: url(../img/elo.jpg);
+	min-height: 300px;
+	position: relative;
+	z-index: 4;
+}
+
+#photocarou {
+	margin-bottom: 80px;
+}
+
+/******************************Carousel******************************/
+.carousel {
+    margin: 0 auto;
+    width:800px;
+    height: 300px;
+    display: relative;
+  }
+  .carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
+
+/****************************** Fin Div photos ******************************/
+
+/****************************** Div à propos ******************************/
+.test {
+	display: flex;
+	flex: 1;
+}
+
+#elophoto {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+/****************************** Fin Div à propos ******************************/
+
+/****************************** Début Div Compétences ******************************/
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; /* Circumference */
+    stroke-width: 10;
+}
+svg.radial-progress circle.incomplete {
+    opacity: 0.25;
+}
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129; /* Circumference */
+}
+svg.radial-progress text {
+    fill: #fff;
+    font-family: 'Iceland', cursive;
+    text-anchor: middle;
+}
+
+/*** COLORS ***/
+/* Primary */
+svg.radial-progress:nth-of-type(6n+1) circle {
+    stroke: #6d0f59;
+}
+
+/* Secondary */
+svg.radial-progress:nth-of-type(6n+2) circle {
+    stroke: #563cb2;
+}
+
+/* Tertiary */
+svg.radial-progress:nth-of-type(6n+3) circle {
+    stroke: #9e6bef;
+}
+
+/* Quaternary */
+svg.radial-progress:nth-of-type(6n+4) circle {
+    stroke: #ef4fcc;
+}
+
+/* Quinary */
+svg.radial-progress:nth-of-type(6n+5) circle {
+    stroke: #e579e1;
+}
+
+/* six */
+svg.radial-progress:nth-of-type(6n+6) circle {
+    stroke: #882293;
+}
+/****************************** Fin Div Compétences******************************/
+
+/****************************** Début Div Contact (Formulaire) ******************************/
+form {
+	* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+}
+fieldset {
+	border-color: #c936bf;
+	box-shadow: 2px 2px 12px #c936bf;
+	font-family: 'Iceland', cursive;
+	font-size: 2em;
+	margin-top: 3rem;
+	padding: 0;
+}
+
+label {
+	font-size: 1em;
+}
+
+input,textarea {
+	font-family: 'Iceland', cursive;
+	font-size: 1em;
+	background-color: black;
+	border: 2px solid #c936bf;
+	border-radius: 5px;
+	color: white;
+}
+
+#formButton {
+	margin-top: 3rem;
+}
+
+#button {
+	font-family: 'Iceland', cursive;
+	font-size: 1.5em;
+	background-color: black;
+	border: 2px solid #c936bf;
+	border-radius: 5px;
+	color: white;
+	padding: 1rem;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 12px white;
+}
+
+#button:hover {
+	box-shadow: 0px 0px 12px #c936bf;
+	cursor: pointer;
+}
+/****************************** Fin Div Contact******************************/
+
+/****************************** DEBUT FOOTER ******************************/
+.pad-footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.icones {
+	padding-right: 15px;
+}
+
+#eloFooter {
+	font-family: 'Great Vibes', cursive;
+	text-transform: inherit;
+	font-size: 25px;
+	text-shadow: 0 0 10px #c936bf;
+}
+/****************************** FIN FOOTER ******************************/
+
+
+ /*********************** Small devices (landscape phones, 576px and down) ***********************/
+
+@media (max-width: 768px) {
+
+	.header {
+  		height: 480px;
+	}
+
+	.elo {
+    	font-family: 'Great Vibes', cursive;
+    	text-transform: inherit;
+    	font-size: 50px;
+    	text-shadow: 0 0 10px #c936bf;
+    	margin-top: -240px;
+	}
+
+	.test {
+		display: inherit;
+	}
+
+	.divApropos {
+		width: inherit;
+		margin-bottom: 0px;
+		margin-top: 40px;
+		position: relative;
+		z-index: 8;
+	}
+
+	#elophoto {
+		margin-top: -40px;
+	}
+
+	.parag {
+		margin-top: -10px;
+	}
+
+  	svg.radial-progress {
+  		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+}
+/*********************** End Small devices (landscape phones, 576px and up) ***********************/
