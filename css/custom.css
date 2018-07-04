@@ -400,6 +400,16 @@ input,textarea {
     	margin-top: -240px;
 	}
 
+	.buttonContact {
+		padding: 0.5rem;
+	}
+
+	.buttonCv {
+		padding: 0.5rem;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+
 	.test {
 		display: inherit;
 	}
@@ -408,6 +418,8 @@ input,textarea {
 		width: inherit;
 		margin-bottom: 0px;
 		margin-top: 40px;
+		padding-top: inherit;
+		padding-bottom: 1rem;
 		position: relative;
 		z-index: 8;
 	}
@@ -425,6 +437,9 @@ input,textarea {
     	margin-left: auto;
     	margin-right: auto;
 	}
+
+	#eloFooter {
+		font-size: 16px;
 
 }
 /*********************** End Small devices (landscape phones, 576px and up) ***********************/
